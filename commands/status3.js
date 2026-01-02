@@ -41,9 +41,9 @@ module.exports = {
                 .setName(status.name)
                 .setDetails(status.details)
                 .setAssetsLargeImage(status.largeImageURL) // Change to status.largeImageURL
-                .setAssetsLargeText('devrock.exe') // Set as needed
+                .setAssetsLargeText('Garvittt-API') // Set as needed
                 .addButton('Youtube', 'https://www.youtube.com/@ZenithSenpai') // Add button name and URL
-                .addButton('Discord', 'https://discord.gg/Rcn5ZhPt9J'); // Add button name and URL
+                .addButton('Discord', 'https://discord.gg/ayodhya'); // Add button name and URL
 
             client.user.setActivity(r);
 
@@ -66,3 +66,4 @@ module.exports = {
         channel.send('Status changer started.').catch(err => console.error('Failed to send message:', err));
     }
 };
+
